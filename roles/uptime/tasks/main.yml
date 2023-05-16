@@ -1,0 +1,3 @@
+---
+# tasks file for uptime
+- include_tasks: uptime.yml

@@ -1,0 +1,6 @@
+---
+- name: Uptime
+  shell: uptime
+  register: hostname_uptime
+- debug:
+    msg: "{{ ansible_hostname }} - {{hostname_uptime.stdout_lines}}"
